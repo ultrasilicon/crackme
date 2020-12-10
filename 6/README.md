@@ -1,0 +1,1 @@
+This program calls `system()` to run `dd if=/dev/random of=/dev/null` for 35 seconds and then `killall dd` in a new process.
